@@ -1,0 +1,98 @@
+name: Submit a tool
+description: Suggest a finance or trading MCP server, agent skill or API for TradingAIHub and this list. Free. Every submission is vetted.
+title: "[Submit] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a tool! Listing is **free**. Before anything is published we check the repo or homepage, recent commit activity, license, package registry and docs, and we reject anything that looks like a scam, promises returns, harvests credentials or is not finance-related.
+        Note: GitHub issues are **public**, so don't paste API keys or private data here.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: e.g. Acme Market Data MCP
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Repository or homepage URL
+      description: Public GitHub repo if there is one, otherwise the official homepage or docs.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - MCP server
+        - Agent skill
+        - API
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Market data
+        - Trading & brokers
+        - Crypto
+        - Accounting
+        - Payments
+        - Personal finance
+        - Research
+        - Quant
+        - Macro
+    validations:
+      required: true
+  - type: dropdown
+    id: official
+    attributes:
+      label: Official or community?
+      description: Official = built or maintained by the company whose product/data it connects to.
+      options:
+        - Official (by the vendor)
+        - Community
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: e.g. MIT, Apache-2.0, proprietary
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: One or two sentences on what it does (max ~160 characters for the listing).
+    validations:
+      required: true
+  - type: input
+    id: pricing
+    attributes:
+      label: Pricing
+      description: Free / freemium / paid, plus a link to the pricing page if paid.
+      placeholder: e.g. Free tier 100 req/day, paid from $29/mo — https://example.com/pricing
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: Submitter contact (optional)
+      description: Only if you want us to reach you outside this issue. This field is public.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This tool is finance/trading-related, is not a scam or pump scheme, does not promise returns and is not an investment-advice service.
+          required: true
