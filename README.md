@@ -100,6 +100,8 @@ Legend: ✅ verified · 🟡 aging (6–12 months without commits) · 🔴 stale
 - ✅ [Edgrapi skills](https://github.com/paperandbeyond23-gif/edgrapi-skills) — SEC EDGAR insider trades, 8-Ks, 13F/13D-G, XBRL and full-text search. ⭐ 1 · [details](https://tradingaihub.com/tools/edgrapi-skills/)
 - ✅ [SEC EDGAR APIs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) *(official)* — Official SEC JSON APIs for company submissions and XBRL financial data. · [details](https://tradingaihub.com/tools/sec-edgar-api/)
 
+- [DisconfirmAI](https://disconfirmai.com/en) — Investment research platform that looks for evidence that could overturn a thesis before you trust it. Daily reading, filings/data research, change radar, and personal investment frameworks.
+
 ## Quant & backtesting
 
 - ✅ [Claude Trading Skills](https://github.com/tradermonty/claude-trading-skills) — Claude Code skills for trading analysis, e.g. IBD-style relative strength rating. ⭐ 3,417 · [details](https://tradingaihub.com/tools/claude-trading-skills/)
