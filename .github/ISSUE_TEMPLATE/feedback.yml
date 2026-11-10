@@ -1,0 +1,27 @@
+name: Feedback
+description: A typo, a wording suggestion, or an idea about this list.
+title: "[Feedback] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions and open-ended ideas may fit better in [Discussions](https://github.com/tradingaihub/awesome-finance-ai-tools/discussions).
+        To suggest a new tool, use the [Submit a tool](submit-tool.yml) form. GitHub is **public**.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - Typo or wording
+        - Listing criteria
+        - Product suggestion
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true

@@ -22,3 +22,22 @@ This list is generated from [TradingAIHub](https://tradingaihub.com) and re-veri
 Note: README.md is regenerated from TradingAIHub's data, so accepted entries are added to the source data as well.
 
 By contributing you agree your contribution is licensed under CC BY 4.0 (see LICENSE).
+
+## Review process and labels
+
+- First team reply within 2 business days.
+- New submissions are labelled `submission` automatically. We add `under-review` while we check them against the criteria above, and `needs-info` if we still need license, pricing, docs or a broker-access answer from you.
+- Tools that can connect to or trade through a broker or exchange account are labelled `broker-access`.
+- We will not merge a PR or close a submission as accepted until the review is done. A reply is not a promise that the tool will be listed.
+
+Please do not paste API keys, credentials or other private data into issues or PRs. GitHub is public.
+
+## Questions and ideas
+
+Product questions and ideas that are not a tool submission belong in [Discussions](https://github.com/tradingaihub/awesome-finance-ai-tools/discussions). Small, well-scoped tasks are labelled `good-first-issue`.
+
+## Pull requests
+
+Use the pull request template. One tool per PR, as described above. README.md is generated from TradingAIHub's data, so a README-only edit will be overwritten on the next weekly run; accepted entries are added to the source data as well.
+
+Nothing here is investment advice.

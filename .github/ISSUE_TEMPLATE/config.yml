@@ -1,8 +1,11 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: Submit via the TradingAIHub website
     url: https://tradingaihub.com/submit/
     about: Fill in the form on the site; it opens this same pre-filled issue for you.
+  - name: Discussions
+    url: https://github.com/tradingaihub/awesome-finance-ai-tools/discussions
+    about: Questions, ideas and general conversation about this list.
   - name: No GitHub account? Email us
     url: https://tradingaihub.com/about/
-    about: Email hello@tradingaihub.com with the tool name, link, type, category and a one-line description.
+    about: Email hello@tradingaihub.com with the tool name, link, type, category, license, pricing, and whether it can access a broker or exchange account.

@@ -1,0 +1,26 @@
+name: Bug report
+description: Something is wrong in this list (a broken link, a wrong status, or a listing error).
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. To suggest a **new** tool, use the [Submit a tool](submit-tool.yml) form instead.
+        GitHub issues are **public** — do not paste API keys or private data.
+        README.md is generated from TradingAIHub; a typo in a description may need a source-data fix, not a README-only edit.
+  - type: input
+    id: url
+    attributes:
+      label: Entry or page
+      description: The GitHub / docs link, or the TradingAIHub tool page.
+      placeholder: https://tradingaihub.com/tools/…
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true

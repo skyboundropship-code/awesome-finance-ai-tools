@@ -63,10 +63,11 @@ body:
   - type: input
     id: license
     attributes:
-      label: License
-      placeholder: e.g. MIT, Apache-2.0, proprietary
+      label: License or terms
+      description: An open-source licence (e.g. MIT, Apache-2.0) or a link to the vendor's terms.
+      placeholder: e.g. MIT, Apache-2.0, proprietary — https://example.com/terms
     validations:
-      required: false
+      required: true
   - type: textarea
     id: description
     attributes:
@@ -80,6 +81,26 @@ body:
       label: Pricing
       description: Free / freemium / paid, plus a link to the pricing page if paid.
       placeholder: e.g. Free tier 100 req/day, paid from $29/mo — https://example.com/pricing
+    validations:
+      required: true
+  - type: dropdown
+    id: broker_access
+    attributes:
+      label: Does this tool connect to or trade through a broker or exchange account?
+      description: Yes if it can read positions or balances, place orders (paper or live), or use brokerage or exchange credentials. Read-only market data or research is "No".
+      options:
+        - "No — read-only market data or research"
+        - "Yes — read-only access to an account (positions, balances)"
+        - "Yes — can place paper/sandbox orders"
+        - "Yes — can place live orders"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: broker_scope
+    attributes:
+      label: Broker or exchange access — what scope?
+      description: If yes, name the broker or exchange and what the tool can do (read positions, place orders, and so on). Leave blank if it does not access an account.
     validations:
       required: false
   - type: input
