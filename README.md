@@ -124,4 +124,4 @@ Submit a tool for free at https://tradingaihub.com/submit/ or open a PR. Entries
 
 ## License
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/) — list text is CC0. Tool names and trademarks belong to their owners.
+[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/) — list text is CC BY 4.0; attribution: "TradingAIHub, https://tradingaihub.com". Tool names and trademarks belong to their owners.
