@@ -93,6 +93,7 @@ Data is CC BY 4.0; attribution is "TradingAIHub, https://tradingaihub.com". Not 
 - ✅ [Bitget Agent MCP](https://github.com/Bitget-AI/agent-mcp) *(official)* — Official Bitget spot and futures trading MCP (89 operations per listing). ⭐ 1 · [details](https://tradingaihub.com/tools/bitget-agent-mcp/)
 - 🟡 [DexScreener Trending MCP](https://github.com/kukapay/dexscreener-trending-mcp) — Trending tokens from DexScreener. ⭐ 1 · [details](https://tradingaihub.com/tools/dexscreener-trending-mcp/)
 - ✅ [CoinGecko API](https://www.coingecko.com/en/api) *(official)* — Crypto prices, market caps, exchanges and on-chain DEX data. · [details](https://tradingaihub.com/tools/coingecko-api/)
+- ✅ [CoinBoss API](https://www.coinboss.com) *(official)* — Official REST API for aggregated crypto derivatives and market data: liquidations, open interest, funding rates, long/short ratios and ETF flows. Market data only; currently free. · [details](https://tradingaihub.com/tools/coinboss-api/)
 - ✅ [CoinGecko MCP](https://docs.coingecko.com/ai-integration/mcp-server) *(official)* — Official CoinGecko MCP server; public keyless endpoint plus a Pro endpoint. · [details](https://tradingaihub.com/tools/coingecko-mcp/)
 
 ## Accounting & bookkeeping
@@ -123,6 +124,7 @@ Data is CC BY 4.0; attribution is "TradingAIHub, https://tradingaihub.com". Not 
 ## Personal finance & budgeting
 
 - 🟡 [Firefly III API](https://github.com/firefly-iii/firefly-iii) *(official)* — REST API of Firefly III, the self-hosted open-source personal finance manager: accounts, transactions, budgets and rules. ⭐ 25,179 · [details](https://tradingaihub.com/tools/firefly-iii-api/)
+- ✅ [Sure](https://github.com/we-promise/sure) — Self-hosted personal finance app (community-maintained fork of Maybe Finance by we-promise): accounts, transactions, budgets and net worth, with a first-party MCP server and REST API. ⭐ 12,419 · [details](https://tradingaihub.com/tools/sure/)
 - ✅ [YNAB MCP Server (community)](https://github.com/calebl/ynab-mcp-server) — Community MCP server for YNAB built on the official SDK: budgets, transactions and approvals, with an optional read-only mode. ⭐ 164 · [details](https://tradingaihub.com/tools/ynab-mcp/)
 - ✅ [Lunch Money MCP](https://github.com/akutishevsky/lunchmoney-mcp) — MCP server for Lunch Money budgeting data. ⭐ 113 · [details](https://tradingaihub.com/tools/lunchmoney-mcp/)
 - ✅ [OptionsAhoy MCP](https://github.com/AlvisoOculus/optionsahoy-mcp) — Equity-compensation tax optimizer for ISO, NSO, RSU and QSBS scenarios. ⭐ 6 · [details](https://tradingaihub.com/tools/optionsahoy-mcp/)
