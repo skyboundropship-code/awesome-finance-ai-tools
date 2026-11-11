@@ -143,6 +143,8 @@ Data is CC BY 4.0; attribution is "TradingAIHub, https://tradingaihub.com". Not 
 - ✅ [Edgrapi skills](https://github.com/paperandbeyond23-gif/edgrapi-skills) — SEC EDGAR insider trades, 8-Ks, 13F/13D-G, XBRL and full-text search. ⭐ 1 · [details](https://tradingaihub.com/tools/edgrapi-skills/)
 - ✅ [SEC EDGAR APIs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) *(official)* — Official SEC JSON APIs for company submissions and XBRL financial data. · [details](https://tradingaihub.com/tools/sec-edgar-api/)
 
+- [DisconfirmAI](https://disconfirmai.com/en) — Investment research platform that looks for evidence that could overturn a thesis before you trust it. Daily reading, filings/data research, change radar, and personal investment frameworks.
+
 ## Quant & backtesting
 
 - ✅ [TradingView MCP (community, unofficial)](https://github.com/atilaahmettaner/tradingview-mcp) — Unofficial community MCP (not affiliated with TradingView): screeners, multi-timeframe technical analysis and backtests for crypto, stocks, forex and futures. ⭐ 5,243 · [details](https://tradingaihub.com/tools/tradingview-mcp/)
